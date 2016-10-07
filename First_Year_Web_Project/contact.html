@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    
+    <title> Contact </title>
+    
+     <META name="description" content="Web Design Project">
+     <META name="keywords" content="Software, Hardware, Computer, Laptop, Tablet, Phone, Review, Reviews, Top, Technonlogy, update, Aleksandar">
+     <META name="author" content="Aleksandar Zoric">
+     <META name="rating" content="Informational">
+     <META name="generator" content="PSPad">
+     <META charset='utf-8'>
+     
+     <link rel="stylesheet" href="Layout.css" type="text/css">
+     
+     <style type="text/css">
+     .formHeading {
+        color:#323232;
+        text-align:center;
+        font-size:20pt;}
+        
+      .formalign1{
+      margin-left:1%;}
+      
+      .commentHere{
+      margin-left:5%;
+      margin-top:13%;}
+      
+      #comments{
+      width:230px;
+      height: 50px;
+      margin-left:10%;}
+      
+      .fieldCol{
+      background:#4e4d4e;
+      border-color:#858484;
+      color:#d9d7d8;}
+      
+      
+     
+     </style>
+  </head>
+  
+  <body>
+  
+   <!-- This contains the title and the company logo, which can be seen on the right of the webpage -->
+                  <h1 class="heading1"><a id="top"> Contact <br></a></h1>
+                  <h2 id="heading2"> Iron Tech </h2>
+                  <img class="globe" src="images/globe.png" alt="Company logo">
+  
+  
+  
+  
+             
+   <!-- This contains the banner which was edited in Photoshop CS6 -->
+  <table class="boxright" border="1">
+     <tr>
+        <td colspan="4">
+           <div>
+                 <img src="images/banner.jpg" alt="Iron Tech reviews banner"> 
+            </div>     
+        </td>
+      </tr>
+        
+        
+        
+        
+        
+         <!-- Navigation -->
+        <tr class="contactimg">
+           
+                    <td> 
+                       <A href="index.html" onMouseOver="document.images.nickname1.src='buttons/home2.png'" onMouseOut="document.images.nickname1.src='buttons/home1.png'">
+                          <IMG src="buttons/home1.png" alt="Home Button" id="nickname1" border="0">
+                       </A>
+                    </td>
+                    
+                    <td>
+                       <A href="about.html" onMouseOver="document.images.nickname2.src='buttons/about2.png'" onMouseOut="document.images.nickname2.src='buttons/about1.png'">
+                          <IMG src="buttons/about1.png" alt="About Button" id="nickname2" border="0">
+                       </A>
+                    </td>
+                    
+                       <td>
+                       <A href="topreviews.html" onMouseOver="document.images.nickname3.src='buttons/top2.png'" onMouseOut="document.images.nickname3.src='buttons/top1.png'">
+                          <IMG src="buttons/top1.png" alt="Review Button" id="nickname3" border="0">
+                       </A>
+                       </td> 
+                    
+                        <td>
+                       <A href="contact.html" onMouseOver="document.images.nickname4.src='buttons/contact2.png'" onMouseOut="document.images.nickname4.src='buttons/contact1.png'">
+                          <IMG src="buttons/contact1.png" alt="Contact Button" id="nickname4" border="0">
+                       </A>
+                       </td>
+            
+        </tr>
+     
+     
+     
+     
+     
+     <!-- Contact advert image -->
+     <tr>
+        <td colspan="4">
+           <IMG src="images/contactus.png" alt="contact advert image" id="ContactUs">
+        </td>
+     </tr>
+     
+     
+    
+    
+    
+    <!-- Basic Details -->
+     <tr>
+        <td colspan="2">
+            <h3 class="formHeading"> Contact us via e-mail </h3>
+            
+          <form method="post" enctype="text/plain" action="mailto:dx-apple@hotmail.com">
+               <fieldset class="fieldCol">
+                  <Legend> Please Insert your Details </legend>
+                     <label for="cust-name" class="formalign1">Name:</label>
+                        <input name="customer-name" id="cust-name" type="text" maxlength="20" accesskey="n" tabindex="1" style="margin-left:4%;" placeholder="Name" autofocus>
+        
+        <br>
+        
+    
+                <label for="cust-address" class="formalign1">Address:</label>
+                   <input name="customer-address" id="cust-address" type="text" maxlength="20" accesskey="1" tabindex="2" style="margin-left:2%;" placeholder="Address" autofocus>
+        
+        <br>
+        
+     
+                <label for="cust-address1" class="formalign1">Address 2:</label>
+                   <input name="customer-address1" id="cust-address1" type="text" maxlength="20" accesskey="2" style="margin-left:0.3%;" placeholder="Address1" autofocus>
+        
+        <br>
+        
+                <label for="cust-address2" class="formalign1">Address 3:</label>
+                   <input name="customer-address2" id="cust-address2" type="text" maxlength="20" value="Tralee" accesskey="3" tabindex="2" style="margin-left:0.4%;" placeholder="Address2" autofocus>
+        
+        <br>
+        
+               <label for="cust-age" class="formalign1">Age:</label>
+                  <input name="customer-age" id="cust-age" type="text" maxlength="3" value="20" accesskey="a" style="margin-left:5.5%;" placeholder="Age" autofocus>
+            </fieldset>
+            
+      <!-- End of basic details -->
+            
+            <br> <br>
+            
+            
+            
+       
+       
+        <!-- Gender of User -->
+            <fieldset class="fieldCol">
+               <legend> Gender </legend>
+     
+                  <input name="gender" id="male" value="M" type="radio" accesskey="5" autofocus>
+                      <label for="male"> Male </label>
+     
+     <br>
+     
+                  <input name="gender" id="female" value="F" type="radio" checked="checked" accesskey="6" autofocus>
+                     <label for="female"> Female </label>
+           </fieldset>
+        <!-- End of gender of user -->
+           
+           
+           <br> <br>
+           
+           
+        
+        
+        <!-- Reason for contact -->
+            <fieldset class="fieldCol">
+               <legend> Reason </legend>
+                  <input type="checkbox" name="Reason" id="privacy" value="pri" accesskey="p" autofocus>
+                     <label for="privacy"> Privacy </label>
+     
+     <br>
+     
+                  <input type="checkbox" name="Reason" id="fault" value="fa" accesskey="f" autofocus>
+                     <label for="fault"> Fault </label>
+     
+     <br>
+     
+                  <input type="checkbox" name="Reason" id="career" value="ca" accesskey="c" autofocus>
+                     <label for="career"> Career </label>
+     
+     <br>
+     
+                  <input type="checkbox" name="Reason" id="other" value="O" accesskey="m" autofocus>
+                     <label for="other"> Other </label>
+             </fieldset>
+        <!-- End of reason for contact -->
+             
+             
+             <br> <br>
+             
+             
+  
+  
+  <!-- Help Review -->
+   <fieldset class="fieldCol">
+        <legend> Need Help with Reviews </legend>
+        
+      <label for="reviews"> Reviews </label>
+    <select name="reviews" id="reviews">
+      
+      <optgroup label="Hardware">
+       <option value="none" selected="selected"> None </option>
+       <option value="Desktop"> Desktop </option>
+       <option value="Laptop"> Laptop </option>
+       <option value="Tablet"> Tablet </option>
+       <option value="Mobile"> Mobile </option>
+      </optgroup>
+      
+      
+      <optgroup label="Software">
+       <option value="adobe"> Adobe CS6 </option>
+       <option value="microsoft"> Microsoft Office </option>
+       <option value="open office"> Open Office </option>
+       <option value="JCreator"> JCreator </option>
+      </optgroup>
+      
+    </select>
+  </fieldset>
+ <!-- End of help review -->
+      
+      <br> <br>
+      
+      
+    
+    
+     <!-- Submit and reset button --> 
+       <input name="submit" value="Contact" type="submit" accesskey="s" autofocus>
+       <input name="Reset" type="Reset" accesskey="r" autofocus>
+     <!-- end of submit and reset button  -->
+                 
+          </form>
+        
+        </td>
+        
+        
+    
+    
+    
+    <!-- User Comment -->
+        <td colspan="2">
+           <h3 class="formHeading"> Leave us a Comment </h3>
+           
+              <p>
+                 If your reason for contact is very specific, you can leave us a comment below and we will get our team to process the information you
+                 have provided and we will do our best to resolve your problem. <br> <br>
+                 
+                 <b>Please note:</b> <br>
+                 
+                 All comments will be recorded in our database, so please make sure you do not use any foul language and that all comments  are
+                 related to the  website.  Any misbehaver on the website will result in the user being restricted to the full use of the website
+                 for 30 days.  Situations the pose a great risk to others or the website will result in higher procedures to be taken to resolve the issue. <br> <br>
+                 
+                 Thank you.
+              </p>
+           
+           <form action="mailto:dx-apple@hotmail.com" method="post" class="commentHere">
+             Comment here:
+                <br>
+                   <textarea name="comments" id="comments">Leave a comment here ... </textarea>
+                       <br> <br>
+                          <input type="submit" value="Submit">
+           </form> 
+        </td>
+     </tr>
+   <!-- End of user comment -->
+     
+     
+     
+      
+      
+      
+      
+      
+      
+      <!-- When this is clicked, it returns the user to the very top of the webpage -->
+              <tr>
+                 <td colspan="4">
+                    <h4 id="backtotop"><a href=#top> Back To Top </a> </h4>
+                    
+                    
+                <!-- This is the footer which contains links to other social network sites and the ability to e-mail-->    
+                    <div>
+                 <h4 id="footer"> Follow us on <a href="https://www.facebook.com/">Facebook</a> - <a href="https://twitter.com/">Twitter</a>  -  
+                                  email <a href = "mailto:dx-apple@hotmail.com"> Aleksandar Zoric </a> -  <a href="sitemap.html"> Site Map </a>  
+                 </h4>
+                    </div>
+                 </td>
+              </tr>
+              
+    </table>
+  </body>
+</html>
+
+<!--
+
+     Unknown, 2013. HD Paperwall. [Online] 
+     Available at: http://www.hdpaperwall.com/hd-website-backgrounds/
+    [Accessed 23 11 2013].
+
+-->
